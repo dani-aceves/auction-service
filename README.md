@@ -12,3 +12,17 @@ After each bid submitted by the API, the results and the winner are returned to 
 # Instructions
 
 To run the application, run `npm run dev`
+
+Use this Postman Collection to play the game
+
+https://material-explorer-20282297-8502788.postman.co/workspace/Daniella-Aceves's-Workspace~5e72b1bf-2773-44e3-880e-905759e9871f/collection/46948372-7f9cf7e9-40ff-4abe-ba79-38ae025e4dc5?action=share&creator=46948372
+
+To start the game, run the Start endpoint and input your name in the `body` tab in Postman
+
+To make bids, run the Bid enpoint and input your bid amounts in the `body` tab in Postman
+
+To restart the game, run the Reset Endpoint
+
+To see a summary of the game, run the Summary endpoint
+
+Note that a summary will automatically be returned at the end of the 10th round.
